@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #add8e6;
+
+}
+
+/* NAVIGATION SECTION START */
+
+.navbar {
+    background: #0F1931;
+    animation: mainheader 3.5s linear infinite;
+}
+
+
+@keyframes mainheader {
+    0% {
+        box-shadow: 0px 5px 156px #add8e6;
+    }
+    50% {
+        box-shadow: 0px 5px 200px #add8e6;
+    }
+    100% {
+        box-shadow: 0px 5px 156px #add8e6;
+    }
+}
+
+.main-header .navbar {
+    padding: 15px 0;
+}
+
+.main-header .navbar-nav > li{
+    padding: 0 10px;
+}
+
+.navbar .navbar-nav > li > .nav-link {
+    padding: 0 13px;
+    line-height: 35px;
+    font-weight: 500 ;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.navbar .navbar-nav > li > .nav-link::after{
+    content: "";
+    position: absolute;
+    left: auto;
+    right:0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: ease all 0.3s;
+}
+
+.navbar .navbar-nav > li > .nav-link:hover:after{
+    left:0;
+    right: auto;
+    width: 100%;
+}
+
+.navbar .navbar-nav #contactBtn {
+    background-color: #fff;
+    color: #212529; 
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", "sans-serif";
+    padding: 5px 15px;
+    border-radius: 18px;
+    border: 3px solid #fff;
+}
+
+.navbar .navbar-nav #contactBtn:hover{
+    background-color: transparent;
+    color: #fff; 
+    border: 3px solid #fff;
+}
+
+/* NAVIGATION SECTION END*/
+
+
+/* BANNER SECTION START */
+
+.greeting-message {
+    padding: 10px 20px;
+    background-color: #0f1931;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 19px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+}
+
+.greeting-message.show {
+    opacity: 1; 
+}
+.main-section .banner{
+    background-color: #0F1931; 
+}
+.main-section .banner .site-title h3{
+    padding-top: 30%;
+    font-weight: 500;
+}
+
+.main-section .banner .site-title h1{
+    font-size: 60px;
+}
+.main-section .banner .site-title #myName{
+    color: #add8e6;
+    text-shadow: 2px 2px 4px #add8e6;
+}
+
+
+.main-section .banner .site-title h4{
+    font-size: 24px;
+}
+.main-section .banner .site-title .site-button .hireMeBtn {
+    padding: 10px;
+    background-color: #2f4f9c;
+    border: 3px solid #2f4f9c;
+
+}
+
+.main-section .banner .banner-img > img{
+    padding: 112px;
+    width: 1440px;
+    border-radius: 40%;
+    box-shadow: 2px  5px #add8e6;
+}
+
+
+
+/* BANNER SECTION END */
+
+
+/* ABOUT SECTION START */
+
+.main-section .about {
+    background-color: #b6c5f2;
+    padding: 128px 0px;
+}
+.main-section .about .about-title h2> span {
+    display: block;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.main-section .about .about-content .CV-btn{
+    background-color: #0F1931;
+    box-shadow: 2px 2px #0F1931;
+}
+.main-section .about .about-content .CV-btn:hover{
+    background-color: #fff;
+    border: 5px solid #0F1931;
+    color: #0F1931;
+}
+
+.main-section .about .about-img {
+    padding: 80px 0px;
+}
+
+.main-section .about .about-img img{
+    border-radius: 40%;
+    width: 400px;
+    box-shadow: 1px 1px 7px #0F1931;
+}
+
+/* ABOUT SECTION END */
+
+/* PROJECTS SECTION START */
+
+.main-section .projects {
+    background-color: #0F1931;
+}
+.main-section .projects .project .project-content, .card{
+    box-shadow: 5px 10px 5px #b6c5f2;
+}
+
+
+.main-section .projects .project .project-content img {
+    width: 250px;
+    border: 4px solid #0F1931;
+    border-radius: 3px;
+}
+
+.main-section .projects .project-content .text-center a{
+    padding: 5px;
+}
+
+.main-section .projects .project-content .text-center a:hover{
+    background-color: #b6c5f2;
+    color: white;
+    border-radius: 30%;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.main-section .figma-projects .card .row img {
+    height: 300px;
+}
+
+.main-section .figma-projects .card  .row .col-md-8 .figma-link .checkDesignBtn{
+    background-color: #0F1931;
+    padding: 5px;
+    border-radius: 6px;
+    color: #fff;
+}
+.main-section .figma-projects .card  .row .col-md-8 .figma-link .checkDesignBtn:hover{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    border: 5px solid #0F1931;
+    color: #0F1931;
+}
+.main-section .figma-projects .card  .row .col-md-8 .figma-link a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* PROJECTS SECTION END*/
+
+
+/* SKILLS SECTION START*/
+
+.main-section .skills {
+    background-color: #b6c5f2;
+    padding: 40px 20px;
+}
+
+.main-section .skills h2 {
+    box-shadow: 4px 4px 10px #0F1931;
+    background-color: #2a437e;
+}
+
+.progress {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.main-section .skills .skills-content label{
+    text-shadow: 2px 2px 2px #0F1931;
+}
+
+.main-section .skills .row .soft-skills .soft-skill div{
+    background-color: #5f4d87;
+    border: 3px solid #0F1931;
+    box-shadow: 4px 5px #0F1931;
+    padding: 10px;
+}
+
+/* SKILLS SECTION END*/
+
+
+/* CONTACT SECTION START */
+.main-section .contact{
+    background-color: #0F1931;
+    padding: 120px 0;
+    border-bottom: 2px solid #2a437e;
+}
+.main-section .contact #contact-form {
+    width: 400px;
+    padding: 40px 0;
+}
+
+.main-section .contact h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main-section .contact h2 >span {
+    color: #2f4f9c;
+}
+.main-section .contact .row .video-container{
+    box-shadow: 3px  5px #b6c5f2;
+    display: flex;
+    justify-content: center;
+}
+.main-section .contact #contact-form input, .main-section .contact #contact-form textarea{
+    background-color: #0F1931;
+    border: 3px solid #b6c5f2;
+    color: #fff;
+}
+.main-section .contact #contact-form .contactBtn {
+    background-color: #2f4f9c;
+    box-shadow: 2px 2px #0F1931;
+}
+.main-section .contact #contact-form .contactBtn:hover {
+    background-color: #fff;
+    border: 5px solid #0F1931;
+    color: #0F1931;
+}
+
+.main-section .quote-container .quoteBtn{
+    background-color: #2f4f9c;
+    color: #fff;
+    font-weight: 600;
+}
+/* CONTACT SECTION END */
+
+/* FOOTER SECTION START */
+.footer {
+    background-color: #0f1931;
+}
+.footer .row .social-media h5,  .footer .row .copy-right > p{
+    padding: 20px 10px;
+}
+.footer .row .social-media a:hover{
+    border-radius: 40%;
+    background-color: #b6c5f2;
+    color: #0F1931;
+}
+/* FOOTER SECTION END */
+
+
+/* FIGMA svg STYLE START*/
+
+.st0{fill:#0acf83}
+.st1{fill:#a259ff}
+.st2{fill:#f24e1e}
+.st3{fill:#ff7262}
+.st4{fill:#1abcfe}
+
+/* FIGMA svg STYLE END*/
+
+
+
+

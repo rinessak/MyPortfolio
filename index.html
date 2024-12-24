@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript class, constructor, methods, events, web development, portfolio, Rinesa Kadriu">
+    <meta name="description" content="Explore the portfolio of Rinesa Kadriu, a pre-graduated Computer Science and Engineering student. Discover projects, skills, and contact information.">
+    <meta name="author" content="Rinesa Kadriu">  
+    <title>Rinesa Kadriu's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--==============  START NAVBAR SECTION ============== -->
+
+    <nav class="navbar navbar-expand-lg  navbar-dark py-3 sticky-top">
+        <div class="container">
+             <a href="#home"><img src="/images/Logo.svg" alt=""></a>
+            <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">
+                            <button id="contactBtn">Contact me</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--==============  END NAVBAR SECTION ============== -->
+
+
+    <!--==============  START MAIN SECTION ============== -->
+
+    <main class="main-section">
+
+        <!--==============  START HOME SECTION ============== -->
+        <section class="banner" id="home">
+            <div class="container">
+                <div id="greetingMessage" class="greeting-message fw-bold">
+                </div>
+                <div class="row pb-4">
+                    <div class="col-lg-6 col-md-12 col-sm-12 site-title ">
+                        <h3 class="greet-text">Hi!</h3>
+                        <h1 class="title-text text-uppercase">I am <span id="myName">Rinesa Kadriu</span></h1>
+                        <h4 class="title-text text-uppercase">A Pre-graduated Computer Science and Engineering Student</h4>
+                        <div class="site-button">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn btn-primary me-4 text-uppercase fw-bold hireMeBtn">Hire me</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12 banner-img">
+                        <img src="/images/banner.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============  END HOME SECTION ============== -->
+
+        
+        <!-- =============  START ABOUT ME SECTION   ======== -->
+
+        <section id="about" class="about py-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 col-md-12 col-sm-12 about-img">
+                        <img src="/images/aboutMe3.jpg" alt="about me"  class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 about-content">
+                        <div class="about-title">
+                            <h2 class="text-uppercase p-5">
+                                <span>Let me</span>
+                                <span>introduce</span>
+                                <span>myself</span>
+                            </h2>
+                        </div>
+                        <div class="paragraph py-4">
+                            <p class="paragraph-text">
+                                Hi, I'm Rinesa Kadriu, a passionate web developer who loves turning ideas into functional and visually appealing websites. I have hands-on experience in building responsive and user-friendly designs using HTML, CSS, JavaScript, and Bootstrap.                            
+                            </p>
+                            <p class="paragraph-text">
+                                Driven by curiosity and a constant desire to learn, I am always exploring new technologies to enhance my skills and deliver high-quality work. My goal is to create solutions that not only meet the requirements but exceed expectations.
+                                Check out my portfolio to see some of my work, or click the button to download my CV!
+                            </p>
+                        </div>
+                        <button class="btn btn-dark CV-btn fw-bold">Download my CV</button>
+                    </div> 
+                </div>
+            </div>
+         </section>
+
+        <!-- =============  END ABOUT ME SECTION   ======== -->
+
+
+        <!-- =============  START PROJECTS SECTION   ======== -->
+        <section id="projects" class="p-5 projects">
+            <div class="container">
+                <h2 class="text-center">My projects</h2>
+                <p class="lead text-center  mb-5">
+                    Our projects all have 5+ years working as web developer in the industry
+                </p>
+                <div class="row g-4 project">
+                    <div class="col-md-6 col-lg-3 col-sm-12">
+                        <div class="card bg-light project-content">
+                            <div class="card-body text-center">
+                                <img src="/images/FurniflexPlatform_project.png" class="img-fluid" alt="first_project">
+                                <h3 class="card-title my-3">Furniflex</h3>
+                                <p class="card-text">This is a platform that lists furniture companies from Kosovo that exports their 
+                                    products abroad and it's purpose is to help us find them easier.</p>
+                                <a href="http://furniflex.great-site.net/" target="_blank" class="text-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                                    </svg>   
+                                </a>                             
+                                <a href="https://github.com/rinessak/FurniFlex-project" target="_blank"  class="text-dark"> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-12">
+                        <div class="card bg-light project-content">
+                            <div class="card-body text-center">
+                                <img src="/images/DevWebClone_project.png" class="img-fluid" alt="second_project">
+                                <h3 class="card-title my-3">Dev Website Clone</h3>
+                                <p class="card-text">This is a clone website design of dev.to. DEV is a community of software 
+                                    developers getting together to help one another out.</p>
+                                <a href="http://rk-code.free.nf/" target="_blank" class="text-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                                    </svg>   
+                                </a>                             
+                                <a href="https://github.com/rinessak/Dev-Website-Clone" target="_blank"  class="text-dark"> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-12">
+                        <div class="card bg-light project-content">
+                            <div class="card-body text-center">
+                                <img src="/images/YouTubeWebDesignClone_project.png" class="img-fluid" alt="third_project">
+                                <h3 class="card-title my-3">YouTube Clone</h3>
+                                <p class="card-text">Youtube web design clone. YouTube is a free video sharing website that 
+                                    makes it easy to watch online videos and one of the most popular.</p>
+                                <a href="https://rinessak.github.io/RinesaK_YouTubeClone_H4/" target="_blank" class="text-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                                    </svg>   
+                                </a>                             
+                                <a href="https://github.com/rinessak/RinesaK_YouTubeClone_H4" target="_blank"  class="text-dark"> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-12">
+                        <div class="card bg-light project-content">
+                            <div class="card-body text-center">
+                                <img src="/images/BlueMedClinicDesign_project.png" class="img-fluid" alt="third_project">
+                                <h3 class="card-title my-3">BlueMed Clinic</h3>
+                                <p class="card-text">BlueMed Clinic is a website design that makes possible for clinics to show their 
+                                    services, doctors, locations, and more information.</p>                             
+                                <a href="https://github.com/rinessak/Blue-MedClinic" target="_blank"  class="text-dark"> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Figma Designs -->
+
+            <div class="container" id="figma-projects">
+                <h4 class="text-center my-5">Figma project designs</h4>
+                <div class="row g-4 figma-projects">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="/images/MyDoctor'sScheduleFigmaDesign_project.png" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">MyDoctor's Schedule Design</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">
+                                    </p>
+                                </div>
+                                <div class="figma-link d-flex justify-content-end p-3">
+                                    <button class="checkDesignBtn">
+                                        <a href="https://www.figma.com/proto/4VsQyWNUV2dFbMRI4PhPqB/MyDoctor'sSchedule?node-id=122-675&p=f&t=opDedqT35ja9COuX-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=122%3A675" 
+                                            target="_blank">
+                                        </a>
+                                        Check the design
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="/images/TravelSafeFigmaDesign_project.png" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Travel Safe Design</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="figma-link d-flex justify-content-end p-3">
+                                        <button class="checkDesignBtn">
+                                            <a href="https://www.figma.com/proto/qfPYfLSI5r17zqo7pCRaIf/TravelSafe?node-id=14-107&p=f&t=IIS1hDmfyUbGanMg-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A975"
+                                                target="_blank">
+                                            </a>
+                                            Check the design
+                                        </button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="/images/SocialMediaDesing_project.png" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Social Media Profile Design</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="figma-link d-flex justify-content-end p-3">
+                                        <button class="checkDesignBtn">
+                                            <a href="https://www.figma.com/proto/lmRPYfr1yjS8th0ciS7Oxu/T30?node-id=9-3&p=f&t=gBS02DFlltOJBIuT-1&scaling=scale-down&content-scaling=fixed&page-id=9%3A2&starting-point-node-id=9%3A3"  
+                                                target="_blank">
+                                            </a>
+                                            Check the design
+                                        </button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+         </section>
+
+        <!-- =============  END PROJECTS SECTION   ======== -->
+
+
+        <!-- =============  START SKILLS SECTION   ======== -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="mySkills text-center py-3">My skills</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 skills-content p-5">
+                        <h4 class="text-center">Technical skills</h4>
+                        <svg width="40px" height="40px" 
+                                viewBox="-52.5 0 361 361" 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                preserveAspectRatio="xMinYMin meet">
+                                <path d="M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z" fill="#E44D26"/>
+                                <path d="M128 337.95l84.417-23.403 19.86-222.49H128V337.95z" fill="#F16529"/>
+                                <path d="M82.82 155.932H128v-31.937H47.917l.764 8.568 7.85 88.01H128v-31.937H85.739l-2.919-32.704zM90.018 236.542h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58l-.14.037-35.568-9.604-2.274-25.471z" fill="#EBEBEB"/>
+                                <path d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0zM92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103h-.001zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88V0zM193.21 0h16.235v32.508h22.824v16.05h-39.06V0z"/>
+                                <path d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z" fill="#FFF"/>
+                        </svg>
+                        <label for="html" class="text-uppercase fw-bold">HTML</label>
+                        <div class="progress mt-1" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-dark" style="width: 90%">90%</div>
+                        </div>
+                        <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"/>
+                            <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"/>
+                            <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"/>
+                            </svg>
+                        <label for="html" class="text-uppercase fw-bold">CSS</label>
+                        <div class="progress mt-1" role=" mt-1bar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-dark" style="width: 70%">70%</div>
+                        </div>
+                        <svg width="40px" height="40px" 
+                            viewBox="0 0 256 256" 
+                            version="1.1" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            preserveAspectRatio="xMidYMid">
+                            <g>
+                                <path d="M0,222.991225 C0,241.223474 14.7785318,256 33.0087747,256 L222.991225,256 C241.223474,256 256,241.221468 256,222.991225 L256,33.0087747 C256,14.7765263 241.221468,0 222.991225,0 L33.0087747,0 C14.7765263,0 0,14.7785318 0,33.0087747 L0,222.991225 Z" fill="#563D7C"></path>
+                                <path d="M106.157563,113.238095 L106.157563,76.9845938 L138.069328,76.9845938 C141.108559,76.9845938 144.039202,77.2378593 146.861345,77.7443978 C149.683488,78.2509362 152.179961,79.1554557 154.35084,80.4579832 C156.52172,81.7605107 158.258397,83.5695496 159.560924,85.8851541 C160.863452,88.2007585 161.514706,91.1675823 161.514706,94.7857143 C161.514706,101.298352 159.560944,106.001853 155.653361,108.896359 C151.745779,111.790864 146.752832,113.238095 140.67437,113.238095 L106.157563,113.238095 L106.157563,113.238095 Z M72.07493,50.5 L72.07493,205.5 L147.186975,205.5 C154.133788,205.5 160.899594,204.631661 167.484594,202.894958 C174.069594,201.158255 179.93088,198.480877 185.068627,194.862745 C190.206375,191.244613 194.294803,186.577293 197.334034,180.860644 C200.373264,175.143996 201.892857,168.37819 201.892857,160.563025 C201.892857,150.866431 199.541107,142.581033 194.837535,135.706583 C190.133963,128.832132 183.00635,124.020088 173.454482,121.270308 C180.401295,117.941627 185.647508,113.672295 189.193277,108.462185 C192.739047,103.252075 194.511905,96.7395349 194.511905,88.9243697 C194.511905,81.6881057 193.317939,75.6097352 190.929972,70.6890756 C188.542005,65.7684161 185.177193,61.8247114 180.835434,58.8578431 C176.493676,55.8909749 171.283644,53.756309 165.205182,52.4537815 C159.12672,51.151254 152.397096,50.5 145.016106,50.5 L72.07493,50.5 L72.07493,50.5 Z M106.157563,179.015406 L106.157563,136.466387 L143.279412,136.466387 C150.660401,136.466387 156.594049,138.166883 161.080532,141.567927 C165.567016,144.968971 167.810224,150.649353 167.810224,158.609244 C167.810224,162.661552 167.122789,165.990183 165.747899,168.595238 C164.373009,171.200293 162.527789,173.262597 160.212185,174.782213 C157.89658,176.301828 155.219203,177.387252 152.179972,178.038515 C149.140741,178.689779 145.956833,179.015406 142.628151,179.015406 L106.157563,179.015406 L106.157563,179.015406 Z" fill="#FFFFFF"></path>
+                            </g>
+                        </svg>
+                        <label for="html" class="text-uppercase fw-bold">Bootstrap</label>
+                        <div class="progress mt-1" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-dark" style="width: 85%">85%</div>
+                        </div>
+                        <svg fill="none" height="40" width="40" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 124 141.53199999999998">
+                            <path d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z" fill="#e9ca32"/>
+                            <path d="M62.468 129.277V12.085l51.064.17-9.106 104.851z" fill="#ffde25"/>
+                            <g fill="#fff">
+                                <path d="M57 26H43.5v78L33 102V91.5l-12.5-2V113l36.5 9.5zM67.127 26H104.5L102 40.95H81.394v24.533H102L99.5 115l-32.373 7.5V107L89 99.5 90.263 79l-23.136 3.35z"/>
+                            </g>
+                        </svg>
+                        <label for="html" class="text-uppercase fw-bold">JavaScript</label>
+                        <div class="progress mt-1" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-dark" style="width: 50%">50%</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 soft-skills p-5 ">
+                        <h4 class="text-center">Soft Skills</h4>
+                        <div class="row py-5 g-5">
+                            <div class="col-sm-12 col-md-6 col-lg-6 soft-skill ">
+                                <div  class="text-center">
+                                    <p class="pt-3">Problem Solving</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 soft-skill">
+                                <div class="text-center">
+                                    <p class="pt-3">Team collaboration</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 soft-skill ">
+                                <div class="text-center">
+                                    <p class="pt-3">Adaptibillity</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 soft-skill">
+                                <div class="text-center">
+                                    <p class="pt-3">Multitasking</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- =============  END SKILLS SECTION   ======== -->
+
+        <!-- =============  START CONTACT SECTION   ======== -->
+         <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="text-center mb-3">Contact <span>Me!</span></h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="video-container p-5 d-flex align-items-center">
+                            <iframe width="550" height="300" src="https://www.youtube.com/embed/aZmjBWloU4k?si=q9ZCOIyzFdSxxOHr" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="form-container p-3 d-flex justify-content-center">
+                            <form id="contact-form">
+                                <div class="mb-3">
+                                  <label for="fullName" class="form-label">Full Name</label>
+                                  <input type="text" class="form-control" id="fullName">
+                                  <div id="fullName" class="form-text"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  </div>
+                                <div class="mb-3">
+                                  <label for="message" class="form-label">Message</label>
+                                  <textarea class="form-control" id="floatingTextarea"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary contactBtn text-uppercase fw-bold">Submit</button>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="container quote-container">
+                    <p>Thank you for visiting my site, check today's quote</p>
+                    <p><i id="quote"></i></p>
+                </div>
+            </div>
+         </section>
+
+        <!-- =============  END CONTACT SECTION   ======== -->
+    </main>
+    <!--==============  END MAIN SECTION ============== -->
+
+
+    <!--==============  START FOOTER SECTION ============== -->
+
+    <section class="footer">
+        <footer class="p-5 text-white text-center position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 social-media">
+                        <h5>Find me on social media </h5>
+                        <a href="https://www.linkedin.com/in/rinesa-kadriu-218a49294/" class="p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/rinessak" class="p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                        <a href="https://dev.to/rkadriu" class="p-4">
+                            <svg height="27px"  width="27px"
+                                style="enable-background:new 0 0 512 512;" 
+                                version="1.1" viewBox="0 0 512 512"
+                                xml:space="preserve" 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="comp_x5F_84-dev">
+                                    <g>
+                                        <g>
+                                            <path d="M433.018,482H78.983C51.93,482,30,460.068,30,433.017V78.983C30,51.93,51.93,30,78.983,30h354.035     C460.069,30,482,51.93,482,78.983v354.033C482,460.068,460.069,482,433.018,482z"/>
+                                            <path d="M184.98,220.154c-0.009-19.43-12.316-48.812-48.905-48.812H87.161v170.82h47.905     c37.938,0.063,49.926-29.364,49.926-48.783L184.98,220.154z M155.827,293.187c0,5.998-2.005,10.488-6.009,13.482     c-4.004,2.992-8.022,4.489-12.028,4.489h-18.016V203.305h18.005c4.006,0,8.023,1.497,12.029,4.491     c3.996,2.993,6.007,7.495,6.019,13.481V293.187z" style="fill:#FFFFFF;"/>
+                                            <path d="M288.932,201.849h-55.005v39.665h33.624v30.527h-33.624v39.652h55.017v30.531h-64.196     c-11.52,0.296-21.101-8.809-21.389-20.329V192.733c-0.28-11.511,8.836-21.071,20.347-21.358h65.238L288.932,201.849     L288.932,201.849z" style="fill:#FFFFFF;"/>
+                                            <path d="M395.928,320.875c-13.628,31.745-38.043,25.427-48.978,0l-39.776-149.491h33.625l30.674,117.404     L402,171.384h33.634L395.928,320.875L395.928,320.875z"  style="fill:#FFFFFF;"/></g>
+                                        </g>
+                                    </g>
+                                <g id="Layer_1"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 copy-right">
+                        <p class="lead">Copyright &copy; 2024 Rinesa Kadriu</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!--==============  END FOORTER SECTION ============== -->
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
