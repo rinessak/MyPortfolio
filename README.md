@@ -4,6 +4,11 @@ A personal portfolio website
 
 Welcome to my portfolio website! This site showcases my skills, projects, and background as a pre-graduated Computer Science and Engineering student. Below is a guide on how to navigate and use the website.
 
+Explore my work directly through my online portfolio:
+
+**[View My Portfolio Online](http://rinesakadriu-myportfolio.free.nf/)**
+
+
 ## Table of Contents
 - [Home](#home)
 - [About Me](#about-me)
